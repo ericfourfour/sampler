@@ -3,7 +3,7 @@ sampler
 
 C# Sound Sampler for WinRT (Windows 8.1, Windows Phone 8.1)
 
-Usage:
+<b>Usage:</b>
 
 ```
 // Create a sampler that will load all of the sound files with the "wav" extension in the "sounds" folder.
@@ -17,7 +17,7 @@ sampler.Load();
 ```
 
 
-Implementing Custom Samplers:
+<b>Implementing Custom Samplers:</b>
 
 This section is to be completed. For now, look at the source. It's not overly-complicated. You will need to 
-inherit from the Sampler and Sound abstract classes and implement their abstract methods.
+inherit from the Sampler and Sound abstract classes and implement their abstract methods. For example, the XAudio2Sampler and XAudio2Sound are implementations of these classes that use SharpDX.XAudio2 to render sounds.
