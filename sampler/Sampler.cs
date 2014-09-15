@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.Storage;
 
-namespace quiz.sampler
+namespace sampler
 {
     /// <summary>
     /// The base class for all samplers.

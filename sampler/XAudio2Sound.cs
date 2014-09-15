@@ -1,14 +1,9 @@
 ﻿using SharpDX.IO;
 using SharpDX.Multimedia;
 using SharpDX.XAudio2;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Windows.Storage;
 
-namespace quiz.sampler
+namespace sampler
 {
     /// <summary>
     /// A sampler-sound implementation that uses ShardDX.XAudio2 to render audio.
